@@ -295,3 +295,26 @@ h2 {
 .timer {
   font-weight: 600;
 }
+
+.msg {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  nav,
+  .app {
+    display: none;
+  }
+  .msg {
+    display: block;
+    color: #2d3439;
+  }
+
+  .msg h1 {
+    font-size: 28px;
+  }
+
+  .msg h1 {
+    font-size: 24px;
+  }
+}
